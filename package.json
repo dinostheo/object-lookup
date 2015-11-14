@@ -1,6 +1,6 @@
 {
   "name": "object-lookup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Safe lookup of object properties.",
   "main": "index.js",
   "author": "Dinos Theodorou",

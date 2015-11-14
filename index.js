@@ -24,5 +24,5 @@ module.exports = function (obj, properties) {
         }
     });
 
-    return value;
+    return value || false;
 };

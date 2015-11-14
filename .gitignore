@@ -3,3 +3,4 @@ node_modules
 
 # Ignore files
 example.js
+npm-debug.log
