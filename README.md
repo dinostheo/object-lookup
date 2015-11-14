@@ -31,7 +31,7 @@ console.log(lookup(object1, 'three.four.five.six')); // prints false
 ## Tests
 To run the tests execute:
 ```
-    npm run test
+    npm test
 ```
 
 ## License
