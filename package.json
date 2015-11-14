@@ -1,6 +1,6 @@
 {
   "name": "object-lookup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Safe lookup of object properties.",
   "main": "index.js",
   "author": "Dinos Theodorou",
@@ -20,10 +20,12 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.0.0",
+    "istanbul": "^0.4.0",
     "mocha": "^2.2.5"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha tests/*.js -R spec"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
+    "test": "node_modules/.bin/mocha test/*.js -R spec"
   },
   "license": "ISC"
 }
