@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/8e89a5f826d71ce848cce7c97116372f/s "wercker status")](https://app.wercker.com/project/bykey/8e89a5f826d71ce848cce7c97116372f)
+
 # object-lookup
 Safe object lookup of nested properties.
 
